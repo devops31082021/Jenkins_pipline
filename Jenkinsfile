@@ -8,6 +8,7 @@ pipeline {
             steps {
                 sh '''
                 sh $WORKSPACE/script.sh
+                echo "nothing is there"
                 '''
             }
         }
